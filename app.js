@@ -5,9 +5,9 @@
 
 let i = 1
 for (i; i < 11; i += 1) {
-if ( i % 2 == 0) {
-    console.log(i, "Juft son")
-} else {
-    console.log(i, "Toq son")
-}
+    if ( i % 2 == 0) {
+        console.log(i, "Juft son")
+    } else {
+        console.log(i, "Toq son")
+    }
 }
